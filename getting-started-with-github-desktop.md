@@ -249,7 +249,7 @@ Click on the edit option.
 
 You will now be able to edit the file and add some new text.
 
-{% include figure.html filename="getting-started-with-github-desktop-9.png" caption="The editing view" %}
+![The editing view](images/getting-started-with-github-desktop-9.png)
 
 Once you have made some changes to your file, you will again see the option to commit changes at the bottom of the text entry box.
 
