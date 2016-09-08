@@ -145,8 +145,7 @@ If you choose the repository you just added you will see the files contained in 
 
 If you go into Explorer (Win) or Finder (Mac) and show hidden folders in the folder you have just added to GitHub you will see that the folder now contains an extra folder with the name '.git'. This folder is how GitHub desktop tracks changes we make within our version controlled folder whether these changes be adding new files or modifying existing ones.
 
-{% include figure.html filename="getting-started-with-github-desktop-18.png" caption="The folder being watched by GitHub desktop" %}
-
+![The folder being watched by GitHub desktop](images/getting-started-with-github-desktop-18.png)
 
 Go back to the document in your text editor and add something new, like this:
 
@@ -253,16 +252,16 @@ You will now be able to edit the file and add some new text.
 
 Once you have made some changes to your file, you will again see the option to commit changes at the bottom of the text entry box.
 
-{% include figure.html filename="getting-started-with-github-desktop-10.png" caption="The remote commit view" %}
+![The remote commit view](images/getting-started-with-github-desktop-10.png)
 
 
 Once you have committed these changes they will be stored on the remote repository. To get them back onto our computer we need to sync our these changes. We will see the 'sync' button on GitHub Desktop.
 
-{% include figure.html filename="getting-started-with-github-desktop-11.png" caption="The sync button" %}
+![The sync button](images/getting-started-with-github-desktop-11.png)
 
 We now have our remote changes synced back onto our computer.
 
-{% include figure.html filename="getting-started-with-github-desktop-12.png" caption="Our document with remote changes synced" %}
+![Our document with remote changes synced](images/getting-started-with-github-desktop-12.png)
 
 You can see from this view that we now have the text with changes highlighted in green and red. Red indicates where things have been removed while green indicates additions. This can be useful for viewing the edits you have made before making a commit and helps you spot whether all the changes are ones you want to commit. On the left you will see a history of the changes you have made. At the moment this is very brief but as you work on a project the history might become much longer. Being able to see the changes you have made at different stages can be very useful.
 
@@ -274,25 +273,25 @@ The most likely way a conflict will emerge is if you make a change remotely (on 
 
 An example will help illustrate how conflicts can emerge and how to deal with them. Say we add a change to our remote repository (on the GitHub website).
 
-{% include figure.html filename="getting-started-with-github-desktop-13.png" caption="A remote change to our document" %}
+![A remote change to our document](images/getting-started-with-github-desktop-13.png)
 
 We commit this change on the website and subsequently make a change to the document on our local machine.
 
-{% include figure.html filename="getting-started-with-github-desktop-14.png" caption="A local change to our document" %}
+![A local change to our document](images/getting-started-with-github-desktop-14.png)
 
 If we now commit our local changes and try and sync our changes we get a message warning us about sync conflicts
 
-{% include figure.html filename="getting-started-with-github-desktop-15.png" caption="GitHub desktop warning of sync conflicts" %}
+![GitHub desktop warning of sync conflicts](images/getting-started-with-github-desktop-15.png)
 
 This is not a big problem. What you need to do is manage these conflicts. GitHub desktop offers you the option of opening the file with the sync conflicts.
 
-{% include figure.html filename="getting-started-with-github-desktop-16.png" caption="GitHub desktop options for opening file containing conflicts" %}
+![GitHub desktop options for opening file containing conflicts}](images/getting-started-with-github-desktop-16.png)
 
 If we choose to open file with an external editor the document will open with whichever text editor/application we have chosen as the default for opening markdown files. If you haven't set a default application you can choose to 'show in finder'. This will show the folder with your file. From here, open it with your preferred editor.
 
 Take a look at the file and you will see Git has highlighted the conflicting section.
 
-{% include figure.html filename="getting-started-with-github-desktop-17.png" caption="Conflicts highlighted in our document" %}
+![Conflicts highlighted in our document}](images/)getting-started-with-github-desktop-17.png)
 
 You will notice that the conflicting section is marked with `<<<<<<<` and ends with `>>>>>>>`. These are known as the conflict markers. The two conflicting blocks are divided by a `=======` line. There are a number of approaches to dealing with a conflict. You could choose to go with either of the changes by deleting the version you no longer want and removing the conflict markers. You could also decide to change the section entirely and not choose either of the options. Resolve the conflict as you wish and then 'commit' the resulting file. Finally sync your changes as usual. When you go to commit your changes you see that GitHub desktop specifies that the commit is to merge a conflict. This is useful if you later want to go back and review how you managed any conflicts.
 
