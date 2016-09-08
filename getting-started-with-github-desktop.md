@@ -277,9 +277,12 @@ An example will help illustrate how conflicts can emerge and how to deal with th
 
 We commit this change on the website and subsequently make a change to the document on our local machine.
 
+
 ![A local change to our document](images/getting-started-with-github-desktop-14.png)
 
-If we now commit our local changes and try and sync our changes we get a message warning us about sync conflicts
+
+If we now commit our local changes and try and sync our changes we get a message warning us about sync conflicts.
+
 
 ![GitHub desktop warning of sync conflicts](images/getting-started-with-github-desktop-15.png)
 
